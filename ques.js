@@ -1,7 +1,7 @@
 // Array of objects containing questions and their corresponding source codes
 const questions = [
 	{
-		question: "Aim: To fit a straight line for the given data",
+      question: "Aim: To fit a straight line for the given data",
       code: `
   import numpy as np
 from sympy import symbols,Eq,solve
@@ -24,7 +24,7 @@ plt.scatter(x,y)
 plt.show()
       `
     },
-	}
+	
     {
       question: "Aim: To fit a parabola for the given data",
       code: `
